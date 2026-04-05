@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Well"
+  short_description: "Rewrite prose with editorial judgment"
+  default_prompt: "Use $write-well to rewrite this prose for clarity, force, flow, and voice, then explain the key edits briefly."
