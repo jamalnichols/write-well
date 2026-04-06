@@ -2,13 +2,14 @@
 
 ## Repository grounding
 
-Primary local files reviewed for this skill:
+This repository does not include the source books used to shape the skill. These notes record editorial influences and interpretation only.
 
-- `/Users/user/Desktop/VSCode/empty/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zi[...]/ELOS.txt`
-- `/Users/user/Desktop/VSCode/empty/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zi[...]/The Elements of Style, Fourth Edition (William Strunk Jr.) (z-library.sk, 1lib.sk, z-lib.sk).txt`
-- `/Users/user/Desktop/VSCode/empty/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zi[...]/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zinsser (z-lib.org).txt`
-- `/Users/user/Desktop/VSCode/empty/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zi[...]/On Writing A Memoir Of The Craft (Stephen King) (z-library.sk, 1lib.sk, z-lib.sk).txt`
-- `/Users/user/Desktop/VSCode/empty/On Writing Well, 30th Anniversary Edition An Informal Guide to Writing Nonfiction by William Zi[...]/Style Lessons in Clarity and Grace (Joseph Williams, Joseph Bizup) (z-library.sk, 1lib.sk, z-lib.sk).txt`
+Primary works consulted while designing the skill:
+
+- *The Elements of Style* — William Strunk Jr. and E. B. White
+- *On Writing Well* — William Zinsser
+- *On Writing: A Memoir of the Craft* — Stephen King
+- *Style: Lessons in Clarity and Grace* — Joseph M. Williams and Joseph Bizup
 
 ## Key source contributions
 
@@ -20,9 +21,9 @@ Primary local files reviewed for this skill:
 
 ## White caveat
 
-The local `.txt` file named as the fourth edition of *The Elements of Style* appears, on inspection, to preserve a Strunk-dominant structure and does not visibly expose White's later “An Approach to Style” chapter in that text dump.
+One development note: the text export reviewed for *The Elements of Style* appeared Strunk-dominant and did not visibly expose White's later “An Approach to Style” chapter.
 
-Treat White's broader role as grounded partly from secondary sources unless the `.epub` is later extracted and verified.
+Treat White's broader role as grounded partly from secondary sources unless a more complete edition is later verified.
 
 ## External references used during planning
 

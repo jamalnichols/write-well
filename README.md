@@ -16,7 +16,7 @@ It rewrites writing for clarity, force, flow, and voice, then briefly explains t
 ## Included artifacts
 
 - `skills/write-well/` — canonical Codex/OpenAI skill package
-- `.claude/commands/write-well.md` — Claude Code project-local command wrapper
+- `.claude/commands/write-well.md` — Claude Code slash-command wrapper
 
 ## Modes
 
@@ -51,6 +51,8 @@ Copy `.claude/commands/write-well.md` into either:
 - `~/.claude/commands/write-well.md`
 - or your project's `.claude/commands/write-well.md`
 
+The Claude command file is intentionally self-contained. It should not depend on repo-local absolute paths or on this repository existing at a specific location on disk.
+
 Then invoke:
 
 ```text
@@ -58,6 +60,16 @@ Then invoke:
 /write-well flow
 /write-well aggressive
 ```
+
+## Pre-release safety check
+
+Before recommitting or publishing, run:
+
+```bash
+./scripts/repo-safety-check.sh
+```
+
+It checks tracked files for machine-specific paths, disallowed provenance domains, and obvious secret material.
 
 ## Example invocation
 

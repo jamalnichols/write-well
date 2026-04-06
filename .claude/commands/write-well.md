@@ -4,19 +4,40 @@ argument-hint: [light|standard|aggressive|flow|polish|cut]
 disable-model-invocation: true
 ---
 
-Use the canonical `write-well` skill materials in this project to rewrite the user's prose and explain the key edits briefly.
+Rewrite the user's prose as a sharp editor, then explain the key edits briefly and concretely.
 
-Read these files before responding:
+Interpret `$ARGUMENTS` as the editing mode:
 
-- `/Users/user/Desktop/VSCode/empty/skills/write-well/SKILL.md`
-- `/Users/user/Desktop/VSCode/empty/skills/write-well/references/doctrine.md`
-- `/Users/user/Desktop/VSCode/empty/skills/write-well/references/anti-slop.md` when the prose feels generic, synthetic, hypey, bureaucratic, or AI-written
-- `/Users/user/Desktop/VSCode/empty/skills/write-well/references/flow-and-emphasis.md` when the prose is dense, structurally muddy, or the user invokes `flow`
-- `/Users/user/Desktop/VSCode/empty/skills/write-well/examples/rationale-examples.md` if you need to calibrate the explanation style
-
-Interpret `$ARGUMENTS` as the editing mode.
+- `light` — conservative rewrite; keep structure and cadence close
+- `standard` — default intensity; improve the draft without overreaching
+- `aggressive` — allow deeper restructuring while preserving meaning
+- `flow` — prioritize cohesion, order, emphasis, and paragraph movement
+- `polish` — refine already-good prose without changing its shape much
+- `cut` — shorten the text while preserving the core point
 
 Default to `rewrite standard` when no argument is supplied.
+
+Use these operating rules:
+
+- Return a full rewrite unless the user explicitly asks for diagnosis only.
+- Preserve meaning unless the user asks to reframe the argument.
+- Preserve voice unless the user asks to neutralize the tone.
+- Cut clutter first, then make language concrete, then improve flow, then restore rhythm.
+- Prefer actors and actions over abstractions.
+- Prefer vivid, plain diction over inflated or synthetic phrasing.
+- Improve paragraphs, not just sentences.
+- Keep necessary technical terms when they do real work.
+- Keep quotations unchanged unless the user asks to rewrite them.
+- Do not lecture, moralize, or explain every edit.
+- Do not flatten strong prose into generic corporate language.
+
+When useful, pay extra attention to:
+
+- AI-sounding filler, hype, and bureaucratic phrasing
+- weak sentence endings
+- buried agency
+- repetition
+- muddy structure or dense paragraph flow
 
 Return output in this format:
 
